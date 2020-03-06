@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="detailsPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="livraison.DetailsController">
+   <children>
+      <ImageView fitHeight="576.0" fitWidth="695.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/3aa9b4f22c3ff9d4435e941af0090dca.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="52.0" layoutY="41.0" prefHeight="356.0" prefWidth="532.0">
+         <children>
+            <ImageView fitHeight="347.0" fitWidth="496.0" layoutX="53.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../projet/src/image/jnnh.png" />
+               </image>
+               <effect>
+                  <Bloom />
+               </effect>
+            </ImageView>
+            <Label fx:id="lb3" layoutX="69.0" layoutY="139.0" prefHeight="17.0" prefWidth="60.0" text="....." />
+            <Label layoutX="69.0" layoutY="169.0" prefHeight="17.0" prefWidth="60.0" text="....." />
+            <Label layoutX="331.0" layoutY="89.0" prefHeight="17.0" prefWidth="60.0" text="....." />
+            <Label layoutX="331.0" layoutY="115.0" prefHeight="17.0" prefWidth="60.0" text="....." />
+            <Label layoutX="331.0" layoutY="139.0" prefHeight="17.0" prefWidth="60.0" text="....." />
+            <Label layoutX="323.0" layoutY="169.0" prefHeight="17.0" prefWidth="60.0" text="   ....." />
+            <ImageView fitHeight="89.0" fitWidth="187.0" layoutX="180.0" layoutY="-33.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/kij.png" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="53.0" layoutY="43.0" prefHeight="38.0" prefWidth="479.0" style="-fx-background-color: #B3B3B3;">
+               <children>
+                  <Label layoutY="6.0" prefHeight="31.0" prefWidth="82.0" text="   Items" textFill="#4d2323">
+                     <font>
+                        <Font name="Monotype Corsiva" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="92.0" layoutY="5.0" prefHeight="23.0" prefWidth="67.0" text=" Price" textFill="#4a2b2b">
+                     <font>
+                        <Font name="Monotype Corsiva" size="23.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="174.0" layoutY="7.0" prefHeight="14.0" prefWidth="94.0" text="      Qty" textFill="#4d2d2d">
+                     <font>
+                        <Font name="Monotype Corsiva" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="268.0" layoutY="11.0" prefHeight="17.0" prefWidth="111.0" text="   Prix total" textFill="#463d3d">
+                     <font>
+                        <Font name="Monotype Corsiva" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="398.0" layoutY="10.0" prefHeight="26.0" prefWidth="67.0" text="   Tax" textFill="#4a2a2a">
+                     <font>
+                        <Font name="Monotype Corsiva" size="21.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Label fx:id="lb1" layoutX="69.0" layoutY="89.0" prefHeight="17.0" prefWidth="33.0" text="...." />
+            <Label fx:id="lb2" layoutX="69.0" layoutY="115.0" prefHeight="17.0" prefWidth="33.0" text="....." />
+            <Label fx:id="p1" layoutX="147.0" layoutY="89.0" prefHeight="17.0" prefWidth="33.0" text="....." />
+            <Label fx:id="p2" layoutX="147.0" layoutY="115.0" prefHeight="17.0" prefWidth="33.0" text="....." />
+            <Label fx:id="p4" layoutX="147.0" layoutY="170.0" prefHeight="17.0" prefWidth="33.0" text="....." />
+            <Label fx:id="p3" layoutX="147.0" layoutY="139.0" prefHeight="17.0" prefWidth="33.0" text="....." />
+            <Label fx:id="q4" layoutX="250.0" layoutY="161.0" prefHeight="17.0" prefWidth="33.0" text="....." />
+            <Label fx:id="q3" layoutX="250.0" layoutY="139.0" prefHeight="17.0" prefWidth="33.0" text="....." />
+            <Label fx:id="q2" layoutX="250.0" layoutY="115.0" prefHeight="17.0" prefWidth="33.0" text="....." />
+            <Label fx:id="q1" layoutX="250.0" layoutY="89.0" prefHeight="17.0" prefWidth="33.0" text="....." />
+            <Label layoutX="457.0" layoutY="169.0" prefHeight="17.0" prefWidth="33.0" text="....." />
+            <Label layoutX="457.0" layoutY="139.0" prefHeight="17.0" prefWidth="33.0" text=" ....." />
+            <Label layoutX="457.0" layoutY="115.0" prefHeight="17.0" prefWidth="33.0" text=" ....." />
+            <Label layoutX="462.0" layoutY="89.0" prefHeight="17.0" prefWidth="22.0" text="....." />
+            <Button fx:id="valider" layoutX="410.0" layoutY="317.0" mnemonicParsing="false" onAction="#handle" prefHeight="40.0" prefWidth="94.0" text="Valider" textFill="#4d2b2b">
+               <font>
+                  <Font name="Monotype Corsiva" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="retour" layoutX="285.0" layoutY="317.0" mnemonicParsing="false" onAction="#handle" prefHeight="40.0" prefWidth="94.0" text="Retour" textFill="#402424">
+               <font>
+                  <Font name="Monotype Corsiva" size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

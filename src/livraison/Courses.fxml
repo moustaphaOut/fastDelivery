@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="courcesesPane" prefHeight="387.0" prefWidth="617.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="livraison.CoursesController">
+   <children>
+      <ImageView fitHeight="389.0" fitWidth="645.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/3aa9b4f22c3ff9d4435e941af0090dca.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" prefHeight="88.0" prefWidth="149.0" />
+      <Button layoutX="14.0" layoutY="108.0" mnemonicParsing="false" prefHeight="88.0" prefWidth="149.0" />
+      <Button layoutX="14.0" layoutY="202.0" mnemonicParsing="false" prefHeight="88.0" prefWidth="149.0" />
+      <Button layoutX="14.0" layoutY="294.0" mnemonicParsing="false" prefHeight="88.0" prefWidth="149.0" />
+      <Button layoutX="169.0" layoutY="14.0" mnemonicParsing="false" prefHeight="88.0" prefWidth="149.0" />
+      <Button layoutX="169.0" layoutY="108.0" mnemonicParsing="false" prefHeight="88.0" prefWidth="149.0" />
+      <Button layoutX="169.0" layoutY="203.0" mnemonicParsing="false" prefHeight="88.0" prefWidth="149.0" text="Button" />
+      <Button layoutX="169.0" layoutY="294.0" mnemonicParsing="false" prefHeight="88.0" prefWidth="149.0" text="Button" />
+      <Button layoutX="324.0" layoutY="14.0" mnemonicParsing="false" prefHeight="88.0" prefWidth="149.0" />
+      <Button layoutX="324.0" layoutY="108.0" mnemonicParsing="false" prefHeight="88.0" prefWidth="149.0" text="Button" />
+      <Button layoutX="324.0" layoutY="203.0" mnemonicParsing="false" prefHeight="88.0" prefWidth="149.0" text="Button" />
+      <Button layoutX="324.0" layoutY="294.0" mnemonicParsing="false" prefHeight="88.0" prefWidth="149.0" />
+      <ImageView fitHeight="95.0" fitWidth="149.0" layoutX="14.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/2-2-pizza-png-pic.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="88.0" fitWidth="149.0" layoutX="346.0" layoutY="203.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/iou.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="88.0" fitWidth="149.0" layoutX="353.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/jjh.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="88.0" fitWidth="149.0" layoutX="15.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/oiu.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="88.0" fitWidth="148.0" layoutX="14.0" layoutY="203.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="88.0" fitWidth="133.0" layoutX="359.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/jkjh.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="88.0" fitWidth="148.0" layoutX="15.0" layoutY="207.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/Hot-Dog-Free-Download-PNG.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="88.0" fitWidth="148.0" layoutX="15.0" layoutY="294.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/jhg.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="88.0" fitWidth="148.0" layoutX="183.0" layoutY="203.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/kjhlkjhghj.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="88.0" fitWidth="148.0" layoutX="169.0" layoutY="303.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/Sushi-PNG-HD.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="88.0" fitWidth="148.0" layoutX="183.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/bol-de-soupe-png-bol-rempli-de-soupe-delicieuse-486.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="88.0" fitWidth="91.0" layoutX="194.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/shrimp.png" />
+         </image></ImageView>
+      <ImageView fitHeight="88.0" fitWidth="149.0" layoutX="364.0" layoutY="294.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/Water-Bottle-PNG-Picture.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="eng" layoutX="492.0" layoutY="152.0" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="122.0" text="Enregistrer" textFill="#4d2c2c">
+         <font>
+            <Font name="Monotype Corsiva" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="retour" layoutX="493.0" layoutY="207.0" mnemonicParsing="false" onAction="#handle" prefHeight="40.0" prefWidth="120.0" text="Retour" textFill="#432929">
+         <font>
+            <Font name="Monotype Corsiva" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
